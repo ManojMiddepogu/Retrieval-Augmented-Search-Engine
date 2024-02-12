@@ -17,8 +17,8 @@ def get_google_search_results(search_query):
         res = service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()
         return res['items']
 
-    GOOGLE_API_KEY = 'AIzaSyDc7bPx1iD2_C5lCLOk7NBBeKj-jDLgj3s'
-    GOOGLE_SE_ID = '85f5dc2e993ca4a65'
+    GOOGLE_API_KEY = ''
+    GOOGLE_SE_ID = ''
     results = google_search(search_query, GOOGLE_API_KEY, GOOGLE_SE_ID, num=3)
     return results
 
