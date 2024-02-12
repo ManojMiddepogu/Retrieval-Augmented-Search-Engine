@@ -65,7 +65,7 @@ def llm():
       bnb_4bit_compute_dtype=torch.bfloat16
   )
 
-  peft_model_id = "./results/mistral-we-com3"
+  peft_model_id = "./mistral-we-com3"
   tokenizer = AutoTokenizer.from_pretrained(peft_model_id)
   tokenizer.pad_token = tokenizer.eos_token
   model = AutoPeftModelForCausalLM.from_pretrained(
