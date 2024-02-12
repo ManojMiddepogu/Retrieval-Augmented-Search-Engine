@@ -16,10 +16,11 @@ pip install google-api-python-client
 pip install sentence-transformers
 ```
 
-## Environment variables for google search API
+## Google search API Keys
 ```bash
-os.environ["GOOGLE_CSE_ID"] = <>
-os.environ["GOOGLE_API_KEY"] = <>
+"GOOGLE_CSE_ID" = <>
+"GOOGLE_API_KEY" = <>
+Update in **search_zero_shot.py** and **search_fine_tuned.py**
 ```
 Please refer to this link on how to get the above keys
 
