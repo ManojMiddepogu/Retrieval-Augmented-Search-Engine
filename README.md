@@ -17,12 +17,10 @@ pip install sentence-transformers
 ```
 
 ## Google search API Keys
-```bash
-"GOOGLE_CSE_ID" = <>
-"GOOGLE_API_KEY" = <>
-Update in **search_zero_shot.py** and **search_fine_tuned.py**
-```
-Please refer to this link on how to get the above keys
+"GOOGLE_CSE_ID" = <> <br>
+"GOOGLE_API_KEY" = <> <br>
+Please refer to this [link](https://python.langchain.com/docs/integrations/tools/google_search) on how to get the above keys.<br>
+Update in **search_zero_shot.py** and **search_fine_tuned.py** 
 
 
 ## Method1 (Retrieval Augmented zero-shot Generation)
