@@ -23,12 +23,14 @@ os.environ["GOOGLE_API_KEY"] = <>
 ```
 Please refer to this link on how to get the above keys
 
+
 ## Method1 (Retrieval Augmented zero-shot Generation)
 ```bash
 python search_zero_shot.py "your query goes here"
 ```
 
 ## Method2 (Retrieval Augmented fine-tuned Generation)
+Download all files in [drive](https://drive.google.com/drive/folders/1GYJSihfUMR01TZBdAKbY8kkkw4KIZLtx) and place in mistral-we-com3 folder itself.
 ```bash
 python search_fine_tuned.py "your query goes here"
 ```
